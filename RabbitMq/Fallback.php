@@ -8,4 +8,9 @@ class Fallback implements ProducerInterface
     {
         return false;
     }
+    
+    public function setContentType($contentType)
+    {
+        return false;
+    }
 }
